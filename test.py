@@ -5,7 +5,7 @@ pinEnable = LED(13)
 pinDir = LED(19)
 pinPulse = LED(21)
 
-pinEnable.on()
+pinEnable.off()
 pinDir.on()
 
 while True:
@@ -15,3 +15,6 @@ while True:
     pinPulse.off()
     print('haha')
     sleep(1/1000)
+
+pinEnable.on()
+pinDir.off()
