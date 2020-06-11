@@ -10,6 +10,8 @@ pinDir.on()
 
 while True:
     pinPulse.on()
+    print('hehe')
     sleep(1/1000)
     pinPulse.off()
+    print('haha')
     sleep(1/1000)
